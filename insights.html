@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shoppingsite</title>
+		<link rel="stylesheet"  href="common.css">
+		<link rel="stylesheet"  href="insights.css">
+		<script src="https://kit.fontawesome.com/f18f48f2b5.js" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+		<script src="common.js"></script>
+</head>
+<body>
+    <div class="main-nav">
+		<div id="navBar" class="navbar">
+			<div class="menu-logo-container">
+				<div class="menu-logo-sub-container">
+					<div id="hamburger" class="hamburger-menu" onclick="showNewMenu()"><i class="fa-solid fa-bars"></i></div>
+					<div id="closeMenu" class="close-menu" onclick="showNewMenu()"><i class="fa-solid fa-xmark"></i></div>
+					<div id="main-menu">
+						<h2>TIXLY</h2>
+					</div>
+				</div>
+				<div id="subMenu" class="sub-menu" onclick="showBagMenu()"><span><i class="fa-solid fa-bag-shopping"></i></span> SHOPPING BAG (0)</div>
+				<div id="cart" class="cart" onclick="showBagMenu()">
+	  				<h2 class="cart-display">Shopping bag is empty</h2>
+	  				<i class="fa-solid fa-xmark" id="cartCross"></i>
+	  				
+	  			</div>
+			</div>
+			<div id="menubar" class="menu">
+				<a href="home.html" style="text-decoration:none;">
+					<div class="sub-menu">HOME</div>
+				</a>
+				<a href="about.html" style="text-decoration:none;">
+					<div class="sub-menu">ABOUT</div>
+				</a>
+				<a href="insights.html" style="text-decoration:underline;">
+					<div class="sub-menu">INSIGHTS</div>
+				</a>
+				<a href="contact.html" style="text-decoration:none;">
+					<div class="sub-menu">CONTACT</div>
+				</a>
+				<a href="store.html" style="text-decoration:none;">
+					<div class="sub-menu">STORE</div>
+				</a>
+				<div id="subMenuResponsiveHide" class="sub-menu sub-menu-hide-responsive" onclick="showBagMenu()"><span><i class="fa-solid fa-bag-shopping"></i></span> SHOPPING BAG (0)</div>
+				<div id="cart" class="cart"onclick="showBagMenu()">
+	  				<h2 class="cart-display">Shopping bag is empty</h2>
+	  				<i class="fa-solid fa-xmark" id="cartCross"></i>
+	  		</div>
+			</div>
+		</div>
+	</div>
+        <section class="insights-section">
+        	<div class="insights-heading">
+        		<div class="insights-mainheading">Take a look at our insights...</div>
+        		<div class="insights-subheading">Discover the inspirational gallery we gathered from our community.</div>
+        	</div>
+        
+  		<div class="image-grid">
+  			<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=392,h=304,fit=crop/tixlyvnpr7/nynne-schroder-unsplash-d95O6yxk60i501wP.jpg" alt="">
+  			<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=392,h=432,fit=crop/tixlyvnpr7/nynne-schroder-unsplash-dOqw03VXpgcWNz19.jpg" alt="">
+  			<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=392,h=368,fit=crop/tixlyvnpr7/nynne-schroder-unsplash-dOqw06G9g9C00pqx.jpg" alt="">
+  			<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=392,h=368,fit=crop/tixlyvnpr7/nynne-schroder-unsplash-YKb72LyRbeiDOoBa.jpg" alt="">
+  			<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=392,h=432,fit=crop/tixlyvnpr7/nynne-schroder-unsplash-Yg2BgO3joWsB1OxV.jpg" alt="">
+  			<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=392,h=304,fit=crop/tixlyvnpr7/nynne-schroder-unsplash-mp8Oze5l3PHWBJog.jpg" alt="">
+  			<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=392,h=432,fit=crop/tixlyvnpr7/nynne-schroder-unsplash-dOqw03VXpgcWNz19.jpg" alt="">
+  			<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=392,h=304,fit=crop/tixlyvnpr7/nynne-schroder-unsplash-d95O6yxk60i501wP.jpg" alt="">
+  			<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=392,h=368,fit=crop/tixlyvnpr7/nynne-schroder-unsplash-YKb72LyRbeiDOoBa.jpg" alt="">
+  			<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=392,h=368,fit=crop/tixlyvnpr7/nynne-schroder-unsplash-dOqw06G9g9C00pqx.jpg" alt="">
+  			<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=392,h=304,fit=crop/tixlyvnpr7/nynne-schroder-unsplash-mp8Oze5l3PHWBJog.jpg" alt="">
+  			<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=392,h=432,fit=crop/tixlyvnpr7/nynne-schroder-unsplash-Yg2BgO3joWsB1OxV.jpg" alt="">
+
+  		</div>
+  	</section>
+
+  <footer>
+  	<div class="footer-section">
+  	<div class="main-footer">
+  		<div>
+  		<div class="sub-foot">
+  		    <div>
+  				<div class="footer-containt">Address<p class="para">3721 Single Street <br>
+  				                        Quincy, MA02169</p> </div>
+  			</div>
+  			<div>
+  				<div class="footer-containt">Contact<p class="para">123 456 7890 <br>
+  				                        Info@tixly.com</p> </div>
+  			</div>
+  			<div>
+  				<div class="footer-containt">FAQ<p class="para">3721 Shipping & Return policy.</p> </div>
+  			</div>
+  		</div>
+  		</div>
+  		<div class="sub-foot2">
+  			<div class="s-f2">Subscribe to our newsletter</div>
+  			<div>*</div>
+  			<div><input type="email"  class="email-box" placeholder ="Your email address" > </div>
+  			<div><input type="submit" class="submit-box" value="SUBMIT" ></div>
+  	        </div>
+        </div>
+  	<div class="logo">
+  			<span class="icons"><i class="fa-brands fa-twitter"></i> </span>
+  			<span class="icons"><i class="fa-brands fa-facebook"></i></span>
+  			<span class="icons"><i class="fa-brands fa-instagram"></i></span> 
+  	</div>
+  </div>
+  </footer>
+</body>
+</html>

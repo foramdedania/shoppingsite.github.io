@@ -1,0 +1,270 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+.home-section{
+    padding-top: 70px;
+    background-image: url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/tixlyvnpr7/nynne-schroder-unsplash-A0xnbgZ4WxTJlN3R.jpg);
+    height: 580px;
+    padding-bottom: 100px;
+    background-size:cover;
+    width: 100% !important;
+}
+
+.para1{
+	padding-top: 200px;
+	padding-left: 100px;
+
+}
+
+.para1-heading{
+	font-size: 30px;
+    padding-bottom:30px;
+}
+
+.para1-subheading{
+	color: rgb(118,118,118);
+    font-size: 20px;
+    padding-bottom:30px;
+    padding-right: 850px;
+}
+
+.home-section2{
+	padding-top: 80px;
+	width: 100%;
+}
+
+.para2-heading{
+	font-size: 30px;
+	display: flex;
+    justify-content: center;
+}
+
+.para2-subheading{
+	color: rgb(118,118,118);
+    font-size: 20px;
+    padding-top:30px;
+    text-align: center;
+}
+
+.images{
+	display: flex;
+	justify-content:center;
+    flex-wrap: wrap;
+	padding-top: 60px;
+	width: 100%;
+}
+
+.img-container{
+    margin: 5px 10px;
+    
+}
+
+.img-class{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 25px 0px 0px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.image-class{
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+}
+
+.button-container{
+    width: 100%;
+    position: absolute;
+    bottom:-10px;
+    left:0px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-container .button{
+    background-color: rgb(46,46,46,1);
+    backface-visibility: hidden;
+    padding: 15px 30px!important;
+    color: rgb(255,255,255,1)!important;
+}
+
+.img-container .button:hover{
+    background-color:rgb(219,219,219);
+    cursor:pointer;
+    color:rgb(255,255,255,1)!important;
+}
+
+.home-section3{
+    padding-top: 150px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.sec3-img{
+    width: 650px;
+    height: 550px;
+    padding-right: 150px;
+
+}
+
+.para3{
+    padding: 0px 242px 0px 180px;
+}
+
+.para3-heading{
+	font-size: 15px;
+    color: rgb(158,158,158);
+}
+
+.para3-subheading{
+	padding-top: 20px;
+    font-size: 38px
+}
+
+.para3-details{
+	padding-top: 40px;
+    color: rgb(146,146,146);
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.para3-button{
+	padding-top:50px;
+}
+
+.para3-button .button{
+	padding: 18px 40px;
+}
+
+.home-section4{
+	padding-top: 180px;
+}
+
+.para4-heading{
+	font-size: 25px;
+    text-align: center;
+    color: rgb(0,0,0)!important;
+}
+
+.para4-images{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	padding-top: 50px;
+}
+
+.sec4-img{
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+}
+
+.para4-button{
+	padding-top: 80px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 800px) {
+    .home-section {
+        background-position: center;
+        padding-left:20px;
+    }
+    .para1 {
+        width: 50%;
+        padding-top: 200px;
+        padding-left: 30px;
+    }
+    .para1-subheading{
+        padding-right:0px;
+    }
+
+    .home-section3{
+    	padding-top: 50px;
+        flex-wrap: wrap;
+    }
+
+    .sec3-img{
+      padding-top: 30px;
+      margin-left: 142px;
+      width: 550px;
+      height: 550px;
+      padding-right: 120px;
+    }
+
+    .para3-button{
+    	padding-top:40px;
+    }
+
+}
+
+@media screen and (max-width:468px) {
+    .home-section{
+    background-position: center;
+    padding-left: 0px;
+    width: 100% !important;
+    padding-top: 33px;
+    }
+
+    .para1{
+        padding-top:55px;
+    }
+
+    .para2-heading{
+        text-align: center;
+    }
+
+    .img-class{
+       padding: 0px 25px 0px 70px;
+    }
+
+    .home-section3{
+        flex-wrap: wrap;
+    }
+
+    .para3{
+      padding: 0px 10px;
+    }
+
+    .sec3-img{
+    width:370px;
+    height: 650px;
+    padding-top:30px!important;
+    padding:0px;
+    margin: 0px;
+    padding-left: 10px !important;
+    }
+
+    .images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    width: 100%;
+    }
+
+    .img-class{
+        padding: 0px;
+    }
+
+    .home-section4{
+        padding-top:80px;
+    }
+
+    .para4-button .button{
+    font-size: 24px;
+    padding: 20px 20px;
+    }
+
+    .para4-button{
+        padding-left: 130px;
+        padding-right: 220px;
+    }
+
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shoppingsite</title>
+		<link rel="stylesheet"  href="common.css">
+		<link rel="stylesheet"  href="about.css">
+		<script src="https://kit.fontawesome.com/f18f48f2b5.js" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+		<script src="common.js"></script>
+</head>
+<body>
+    <div class="main-nav">
+		<div id="navBar" class="navbar">
+			<div class="menu-logo-container">
+				<div class="menu-logo-sub-container">
+					<div id="hamburger" class="hamburger-menu" onclick="showNewMenu()"><i class="fa-solid fa-bars"></i></div>
+					<div id="closeMenu" class="close-menu" onclick="showNewMenu()"><i class="fa-solid fa-xmark"></i></div>
+					<div id="main-menu">
+						<h2>TIXLY</h2>
+					</div>
+				</div>
+				<div id="subMenu" class="sub-menu" onclick="showBagMenu()"><span><i class="fa-solid fa-bag-shopping"></i></span> SHOPPING BAG (0)</div>
+				<div id="cart" class="cart" onclick="showBagMenu()">
+	  				<h2 class="cart-display">Shopping bag is empty</h2>
+	  				<i class="fa-solid fa-xmark" id="cartCross"></i>
+	  				
+	  			</div>
+			</div>
+			<div id="menubar" class="menu">
+				<a href="home.html" style="text-decoration:none;">
+					<div class="sub-menu">HOME</div>
+				</a>
+				<a href="about.html" style="text-decoration:underline;">
+					<div class="sub-menu">ABOUT</div>
+				</a>
+				<a href="insights.html" style="text-decoration:none;">
+					<div class="sub-menu">INSIGHTS</div>
+				</a>
+				<a href="contact.html" style="text-decoration:none;">
+					<div class="sub-menu">CONTACT</div>
+				</a>
+				<a href="store.html" style="text-decoration:none;">
+					<div class="sub-menu">STORE</div>
+				</a>
+				<div id="subMenuResponsiveHide" class="sub-menu sub-menu-hide-responsive" onclick="showBagMenu()"><span><i class="fa-solid fa-bag-shopping"></i></span> SHOPPING BAG (0)</div>
+				<div id="cart" class="cart"onclick="showBagMenu()">
+	  				<h2 class="cart-display">Shopping bag is empty</h2>
+	  				<i class="fa-solid fa-xmark" id="cartCross"></i>
+	  		</div>
+			</div>
+		</div>
+	</div>
+
+  	<section class="about-section">
+  		<div class="about-head"><h2>Quality, not quantity</h2> </div>
+  		<div class="about-subhead">We have made quality our habit. It’s not something that we just strive for – we live by this principle every day.</div>
+  		<div class="about-container">
+  			<div class="about-images"><img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=392,h=432,fit=crop/tixlyvnpr7/nynne-schroder-unsplash-YKb72LyRbeiDOoBa.jpg" class="about-img"></div>
+  			<div class="about-images"><img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=392,h=432,fit=crop/tixlyvnpr7/nynne-schroder-unsplash-dOqw03VXpgcWNz19.jpg" class="about-img"></div>
+  			<div class="about-images"><img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=392,h=432,fit=crop/tixlyvnpr7/nynne-schroder-unsplash-Yg2BgO3joWsB1OxV.jpg" class="about-img"></div>
+  		</div>
+  	</section>
+
+  	<section class="about-section2">
+  		<div class="about-para1">
+  			<p>
+  			      Our mission is to provide a trusted and experienced online resource for the retail community. We are committed to providing our members with a wide range of products and services. This allows you to 
+  			      shop with confidence knowing you are shopping with a trusted brand that knows and understands
+  			      the marketplace. We do this by delivering a wide selection of products and services that are tailored 
+  			      to fit your lifestyle.
+  			</p>
+  		</div>
+  		<div class="about-para1">
+  			<p>
+  			      The company is founded by Anna and Michael Hofer, who have a keen interest in children’s fashion. Their aim is to provide the best possible shopping experience for children and their parents and to support the companies that do. Anna and Michael are passionate about children’s fashion and the  role it plays in the lives of children. They believe that children can never grow up without fashion,and that fashion should always be available for them.
+  			</p>
+  		</div>
+  		<div class="about-para1">
+  			<p>
+  			     'We love children’s clothing. We believe that every child should have a wonderful wardrobe filled 
+  			      with clothes that will make them feel good. We love that children love clothes, that they want to look
+  			      good and that they want to be in good clothes. We have created a fashion website where parents 
+  			      can find their children’s clothing, so they can take care of their children’s clothing and enjoy the good times.'
+  			</p>
+  		</div>
+  		<div class="about-para-ending" >  
+  			<p class="about-last-section"> With love, </p>
+  			<p class="about-last-section2">Anna and Michael</p>
+  		</div>
+  	</section>
+  
+  <footer>
+  	<div class="footer-section">
+  	<div class="main-footer">
+  		<div>
+  		<div class="sub-foot">
+  		    <div>
+  				<div class="footer-containt">Address<p class="para">3721 Single Street <br>
+  				                        Quincy, MA02169</p> </div>
+  			</div>
+  			<div>
+  				<div class="footer-containt">Contact<p class="para">123 456 7890 <br>
+  				                        Info@tixly.com</p> </div>
+  			</div>
+  			<div>
+  				<div class="footer-containt">FAQ<p class="para">3721 Shipping & Return policy.</p> </div>
+  			</div>
+  		</div>
+  		</div>
+  		<div class="sub-foot2">
+  			<div class="s-f2">Subscribe to our newsletter</div>
+  			<div>*</div>
+  			<div><input type="email"  class="email-box" placeholder ="Your email address" > </div>
+  			<div><input type="submit" class="submit-box" value="SUBMIT" ></div>
+  	        </div>
+        </div>
+  	<div class="logo">
+  			<span class="icons"><i class="fa-brands fa-twitter"></i> </span>
+  			<span class="icons"><i class="fa-brands fa-facebook"></i></span>
+  			<span class="icons"><i class="fa-brands fa-instagram"></i></span> 
+  	</div>
+  </div>
+  </footer>
+</body>
+</html>

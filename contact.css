@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.contact-section{
+	padding-top: 100px;
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.contact-imgae{
+    padding-right: 50px;
+}
+
+.contact-img{
+    width:600px;
+}
+
+.contact-sec{
+    padding-top: 80px;
+    padding-left: 50px;
+}
+
+.contact-para1{
+	font-size: 60px;
+}
+
+.contact-para2{
+	padding-top: 40px;
+}
+
+.contact-name{
+	font-size: 18px;
+    color: rgb(107,93,120);
+}
+
+.contact-button{
+	width: 493px;
+    height: 40px;
+    background-color: rgb(240,241,241);
+    border: hidden;
+    padding-left: 10px;
+    color: rgb(136,136,136);
+}
+
+.contact-message{
+	border: 1px;
+    background-color: rgb(200,200,200);
+    font-size: 16px;
+    color: rgb(107,93,120);
+}
+
+.contact-button2{
+	width: 493px;
+    background-color: rgb(240,241,241);
+    border: hidden;
+    padding-left: 10px;
+    color: rgb(136,136,136);
+    padding-bottom: 70px;
+    padding-top: 15px;
+}
+
+.contact-last-button{
+	border: 1px solid;
+    background-color: rgb(46,46,46);
+    font-size: 16px;
+    padding: 12px 40px;
+    color: rgb(255,255,255,1)!important;
+    margin-top: 30px;
+    margin-right: 380px;
+}
+
+@media screen and (max-width: 800px){
+    .contact-section{
+        flex-direction: column-reverse;
+        padding-left: 100px
+    }
+
+    .contact-last-button{
+        margin-right: 300px;
+        margin-bottom: 50px;
+    }
+
+    .contact-img{
+        width: 550px;
+        padding-left: 50px;
+        height: 620px;
+    }
+}
+
+@media screen and (max-width: 486px){
+    .contact-section{
+        padding-left: 10px
+    }
+
+    .contact-img{
+        width:400px;
+        padding:0px;
+        padding-left: 20px;
+    }
+
+    .contact-section{
+        padding-top:80px!important;
+        padding: 0px;
+    }
+
+    .contact-sec{
+        padding-left:20px;
+    }
+
+    .contact-button{
+        width: 400px;
+    }
+
+    .contact-button2{
+        width: 400px;
+    }
+
+    .contact-last-button{
+    font-size: 18px;
+    padding: 15px 45px;
+    margin-right: 260px;
+    }
+}

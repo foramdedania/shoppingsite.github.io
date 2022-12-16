@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shoppingsite</title>
+		<link rel="stylesheet" href="common.css">
+		<link rel="stylesheet" href="store.css">
+		<script src="https://kit.fontawesome.com/f18f48f2b5.js" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+                <script src="common.js"></script>
+</head>
+<body>
+    <div class="main-nav">
+		<div id="navBar" class="navbar">
+			<div class="menu-logo-container">
+				<div class="menu-logo-sub-container">
+					<div id="hamburger" class="hamburger-menu" onclick="showNewMenu()"><i class="fa-solid fa-bars"></i></div>
+					<div id="closeMenu" class="close-menu" onclick="showNewMenu()"><i class="fa-solid fa-xmark"></i></div>
+					<div id="main-menu">
+						<h2>TIXLY</h2>
+					</div>
+				</div>
+				<div id="subMenu" class="sub-menu" onclick="showBagMenu()"><span><i class="fa-solid fa-bag-shopping"></i></span> SHOPPING BAG (0)</div>
+				<div id="cart" class="cart" onclick="showBagMenu()">
+	  				<h2 class="cart-display">Shopping bag is empty</h2>
+	  				<i class="fa-solid fa-xmark" id="cartCross"></i>
+	  				
+	  			</div>
+			</div>
+			<div id="menubar" class="menu">
+				<a href="home.html" style="text-decoration:none;">
+					<div class="sub-menu">HOME</div>
+				</a>
+				<a href="about.html" style="text-decoration:none;">
+					<div class="sub-menu">ABOUT</div>
+				</a>
+				<a href="insights.html" style="text-decoration:none;">
+					<div class="sub-menu">INSIGHTS</div>
+				</a>
+				<a href="contact.html" style="text-decoration:none;">
+					<div class="sub-menu">CONTACT</div>
+				</a>
+				<a href="store.html" style="text-decoration:underline;">
+					<div class="sub-menu">STORE</div>
+				</a>
+				<div id="subMenuResponsiveHide" class="sub-menu sub-menu-hide-responsive" onclick="showBagMenu()"><span><i class="fa-solid fa-bag-shopping"></i></span> SHOPPING BAG (0)</div>
+				<div id="cart" class="cart"onclick="showBagMenu()">
+	  				<h2 class="cart-display">Shopping bag is empty</h2>
+	  				<i class="fa-solid fa-xmark" id="cartCross"></i>
+	  		</div>
+			</div>
+		</div>
+	</div>
+
+
+  	<section class="store-section">
+  		<div class="store-section1">
+  			<div class="img-effect">
+  				<img src="https://cdn.zyrosite.com/cdn-cgi/image/format=auto,w=392,h=392,fit=crop,q=100/cdn-ecommerce/demo_01G0E9P2R0CFTNBWEEFCEV8EG5%2Fassets%2F1649766882013-ganbaru.png" class="store-image">
+  				<p class="p1">Handmade Bowl "Ganbaru"</p>
+  				<p class="p2">$32.00</p>
+  			</div>
+  			<div class="img-effect">
+  				<img src="https://cdn.zyrosite.com/cdn-cgi/image/format=auto,w=392,h=392,fit=crop,q=100/cdn-ecommerce/demo_01G0E9P2R0CFTNBWEEFCEV8EG5%2Fassets%2F1649766161496-ikigai.png" class="store-image">
+  				<p class="p1">Handmade Vase "Ikigai"</p>
+                                <p class="p2">$62.00</p>
+  			</div>
+  			<div class="img-effect">
+  				<img src="https://cdn.zyrosite.com/cdn-cgi/image/format=auto,w=392,h=392,fit=crop,q=100/cdn-ecommerce/demo_01G0E9P2R0CFTNBWEEFCEV8EG5%2Fassets%2F1649766901170-kaiyo.png" class="store-image">
+                                <p class="p1">Handmade Vase "Kaiyo"</p>
+                                <p class="p2">$60.00</p>
+  			</div>
+  		</div>
+  		<div class="store-section2">
+  			<div class="img-effect">
+  				<img src="https://cdn.zyrosite.com/cdn-cgi/image/format=auto,w=392,h=392,fit=crop,q=100/cdn-ecommerce/demo_01G0E9P2R0CFTNBWEEFCEV8EG5%2Fassets%2F1649766855139-shimai.png" class="store-image">
+  				<p class="p1">Handmade Vase "Shimai"</p>
+  				<p class="p2">$58.00</p>
+  			</div>
+  			<div class="img-effect">
+  				<img src="https://cdn.zyrosite.com/cdn-cgi/image/format=auto,w=392,h=392,fit=crop,q=100/cdn-ecommerce/demo_01G0E9P2R0CFTNBWEEFCEV8EG5%2Fassets%2F1649766924366-sora.png" class="store-image">
+  				<p class="p1">Handmade Vase "Sora"</p>
+                                <p class="p2">$51.00</p>
+  			</div>
+  			<div class="img-effect">
+  				<img src="https://cdn.zyrosite.com/cdn-cgi/image/format=auto,w=392,h=392,fit=crop,q=100/cdn-ecommerce/demo_01G0E9P2R0CFTNBWEEFCEV8EG5%2Fassets%2F1649766839361-yuugen.png" class="store-image">
+                                <p class="p1">Handmade Vase "Yuugen"</p>
+                                <p class="p2">$52.00</p>
+  			</div>
+  		</div>
+  		
+  	</section>
+  
+
+
+  <footer>
+  	<div class="footer-section">
+  	<div class="main-footer">
+  		<div>
+  		<div class="sub-foot">
+  		    <div>
+  				<div class="footer-containt">Address<p class="para">3721 Single Street <br>
+  				                        Quincy, MA02169</p> </div>
+  			</div>
+  			<div>
+  				<div class="footer-containt">Contact<p class="para">123 456 7890 <br>
+  				                        Info@tixly.com</p> </div>
+  			</div>
+  			<div>
+  				<div class="footer-containt">FAQ<p class="para">3721 Shipping & Return policy.</p> </div>
+  			</div>
+  		</div>
+  		</div>
+  		<div class="sub-foot2">
+  			<div class="s-f2">Subscribe to our newsletter</div>
+  			<div>*</div>
+  			<div><input type="email"  class="email-box" placeholder ="Your email address" > </div>
+  			<div><input type="submit" class="submit-box" value="SUBMIT" ></div>
+  	        </div>
+        </div>
+  	<div class="logo">
+  			<span class="icons"><i class="fa-brands fa-twitter"></i> </span>
+  			<span class="icons"><i class="fa-brands fa-facebook"></i></span>
+  			<span class="icons"><i class="fa-brands fa-instagram"></i></span> 
+  	</div>
+  </div>
+  </footer>
+</body>
+</html>
